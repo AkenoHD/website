@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./yes_style.css">
+</head> 
+<body>
+    <div class="container">
+        <div>
+            <h1 class="header_text">Hurrayyyy!! y si los dos incluyen coffee conmigo!</h1>
+        </div>
+        <div class="gif_container">
+            <img src="https://media0.giphy.com/media/T86i6yDyOYz7J6dPhf/giphy.gif" alt="Cute animated illustration">
+        </div>
+        <div class="buttons">
+            <button class="btn" id="pekoButton" onclick="chooseOption('peko')">Peko Peko</button>
+            <button class="btn" id="ponteButton" onclick="chooseOption('ponte')">Ponte Fresco</button>
+        </div>
+    </div>
+    <script>
+        function chooseOption(option) {
+            if (option === 'peko') {
+                window.location.href = "peko.html";
+            } else if (option === 'ponte') {
+                window.location.href = "ponte.html";
+            }
+        }
+    </script>
+</body> 
+</html>
